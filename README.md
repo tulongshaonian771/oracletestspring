@@ -9,7 +9,7 @@ A.How to work in a team with people who come from IT related professions
 3. Embrace rapid learning and self-study: Continuously learning and engaging in self-study is crucial for understanding the technical expressions of others. By actively seeking knowledge and gaining a comprehensive understanding of various domains, I aim to contribute meaningfully to discussions and projects.
 
 4. Foster independent problem-solving: When faced with challenges, my initial approach is to attempt to solve the problem independently using resources like Google or self-study, rather than seeking immediate assistance for simple questions. However, if the problem persists or requires teamwork, timely and effective communication is vital.
-
+```
 B.Validation simple example:
 public class
 import javax.validation.constraints.NotBlank;
@@ -22,7 +22,9 @@ private String username;
 message = "password must be at least 6 characters")
 private String password;
 public User() {}
+```
 
+```
 @PostMapping("/studentlogin")
 public String handleLogin(
 @Valid @ModelAttribute("student") Student student, 
@@ -38,5 +40,6 @@ return "login";
 // authenticate successfully, redirect to next page
 return "redirect:/protected/studentInfomation";
 }
+```
 
 
